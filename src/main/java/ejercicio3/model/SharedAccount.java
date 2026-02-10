@@ -1,8 +1,10 @@
 package ejercicio3.model;
 
+import lombok.Getter;
 import lombok.Setter;
 
 @Setter
+@Getter
 public class SharedAccount {
 
     private int saldo = 1000;
